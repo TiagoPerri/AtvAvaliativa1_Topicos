@@ -1,0 +1,22 @@
+{
+  "name": "atvavaliativa1_topicos",
+  "version": "1.0.0",
+  "description": "Atividade avaliativa 1 - Tópicos de computação",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiagoPerri/AtvAvaliativa1_Topicos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TiagoPerri/AtvAvaliativa1_Topicos/issues"
+  },
+  "homepage": "https://github.com/TiagoPerri/AtvAvaliativa1_Topicos#readme",
+  "dependencies": {
+    "jest": "^27.3.1"
+  }
+}
