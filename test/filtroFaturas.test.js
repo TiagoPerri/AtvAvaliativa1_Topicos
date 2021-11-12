@@ -67,4 +67,21 @@ describe('filtroFaturas', () => {
         const sizeArr = Newarr.length;
         expect(sizeArr).toBe(0); 
     });
+
+    test('Other - Se o valor da fatura for maior que 4000 e pertencer a algum estado da região Sul do Brasil', () => {
+        
+        filtrofaturas = new filtroFaturas();
+        let Newarr = []
+        
+        const user1 = filtrofaturas.passaobjCliente('Tiago', '2021-10-07', 'PR');
+        const user2 = filtrofaturas.passaobjCliente('Andre', '2021-08-01', 'AM');
+        const fatura1 = filtrofaturas.passaobjFatura('id', 4450, '2021-11-15', user1);
+        const fatura2 = filtrofaturas.passaobjFatura('id2', 4000, '2021-11-22', user2);
+        Newarr = filtrofaturas.colocaFaturainArray(Newarr,fatura1)
+        Newarr = filtrofaturas.colocaFaturainArray(Newarr,fatura2)        
+        Newarr = filtrofaturas.filtroFatura(Newarr);
+
+        const sizeArr = Newarr.length;
+        expect(sizeArr).toBe(1); 
+    });
 });
