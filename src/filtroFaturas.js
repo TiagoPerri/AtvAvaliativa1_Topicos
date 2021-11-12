@@ -61,12 +61,30 @@ class filtroFaturas{
         return true;
     }
 
+    maior4000eEstadoSulBr(fatura){
+        function estadosSulBr(cliente){
+            if(cliente.estado == "PR" || cliente.estado == "SC" || cliente.estado == "RS"){
+                return true;
+            }
+            else{
+                return false;
+            }
+        }
+
+        let trueSul = estadosSulBr(fatura.cliente);
+        if(trueSul == true && fatura.valor > 4000){  
+            return false; 
+        }
+        return true;  
+    }
+
     filtroFatura(faturas) { 
         let result = faturas;
         
         result = result.filter(this.menorque2000);
         result = result.filter(this.entre2000e2500andDataMenorouIgual);
         result = result.filter(this.entre2500e3000andDataMenorouIgual2meses);
+        result = result.filter(this.maior4000eEstadoSulBr); 
 
         return result; 
     }
