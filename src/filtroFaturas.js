@@ -43,11 +43,30 @@ class filtroFaturas{
         return true; 
     }
 
+    entre2500e3000andDataMenorouIgual2meses(fatura){
+        function calcDiasentreDataAtualandDataCliente(fatura){
+            const presente = new Date();
+            const passado = new Date(fatura.cliente.data); 
+            
+            const diferenca = Math.abs(presente.getTime() - passado.getTime()); 
+            const dias = Math.ceil(diferenca / (1000 * 60 * 60 * 24)); 
+            
+            return dias;
+        }
+        
+        const dias = calcDiasentreDataAtualandDataCliente(fatura); 
+        if(dias <= 60 && fatura.valor >= 2500 && fatura.valor <= 3000){
+            return false;
+        }
+        return true;
+    }
+
     filtroFatura(faturas) { 
         let result = faturas;
         
         result = result.filter(this.menorque2000);
         result = result.filter(this.entre2000e2500andDataMenorouIgual);
+        result = result.filter(this.entre2500e3000andDataMenorouIgual2meses);
 
         return result; 
     }

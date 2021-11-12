@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1636735284192" clover="3.2.0">
-  <project timestamp="1636735284193" name="All files">
-    <metrics statements="20" coveredstatements="20" conditionals="5" coveredconditionals="5" methods="7" coveredmethods="7" elements="32" coveredelements="32" complexity="0" loc="20" ncloc="20" packages="1" files="1" classes="1"/>
+<coverage generated="1636735472729" clover="3.2.0">
+  <project timestamp="1636735472729" name="All files">
+    <metrics statements="30" coveredstatements="30" conditionals="10" coveredconditionals="10" methods="9" coveredmethods="9" elements="49" coveredelements="49" complexity="0" loc="30" ncloc="30" packages="1" files="1" classes="1"/>
     <file name="filtroFaturas.js" path="D:\Users\tiago\Desktop\UTFPR\Tópicos em Computação\AtvAvaliativa1_Topicos\src\filtroFaturas.js">
-      <metrics statements="20" coveredstatements="20" conditionals="5" coveredconditionals="5" methods="7" coveredmethods="7"/>
+      <metrics statements="30" coveredstatements="30" conditionals="10" coveredconditionals="10" methods="9" coveredmethods="9"/>
       <line num="4" count="5" type="stmt"/>
       <line num="12" count="5" type="stmt"/>
       <line num="25" count="5" type="stmt"/>
@@ -16,14 +16,24 @@
       <line num="40" count="4" type="cond" truecount="5" falsecount="0"/>
       <line num="41" count="2" type="stmt"/>
       <line num="43" count="2" type="stmt"/>
-      <line num="47" count="3" type="stmt"/>
-      <line num="49" count="3" type="stmt"/>
-      <line num="50" count="3" type="stmt"/>
-      <line num="52" count="3" type="stmt"/>
-      <line num="56" count="5" type="stmt"/>
-      <line num="58" count="5" type="stmt"/>
-      <line num="60" count="5" type="stmt"/>
-      <line num="64" count="1" type="stmt"/>
+      <line num="48" count="2" type="stmt"/>
+      <line num="49" count="2" type="stmt"/>
+      <line num="51" count="2" type="stmt"/>
+      <line num="52" count="2" type="stmt"/>
+      <line num="54" count="2" type="stmt"/>
+      <line num="57" count="2" type="stmt"/>
+      <line num="58" count="2" type="cond" truecount="5" falsecount="0"/>
+      <line num="59" count="1" type="stmt"/>
+      <line num="61" count="1" type="stmt"/>
+      <line num="65" count="3" type="stmt"/>
+      <line num="67" count="3" type="stmt"/>
+      <line num="68" count="3" type="stmt"/>
+      <line num="69" count="3" type="stmt"/>
+      <line num="71" count="3" type="stmt"/>
+      <line num="75" count="5" type="stmt"/>
+      <line num="77" count="5" type="stmt"/>
+      <line num="79" count="5" type="stmt"/>
+      <line num="83" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
