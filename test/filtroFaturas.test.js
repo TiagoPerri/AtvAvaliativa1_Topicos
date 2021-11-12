@@ -36,4 +36,18 @@ describe('filtroFaturas', () => {
         const sizeArr = Newarr.length;
         expect(sizeArr).toBe(0); 
     });
+
+    test('Se o valor da fatura estiver entre 2500 e 3000 e a data de inclusão do cliente for menor ou igual a 2 meses atrás', () => {
+        
+        filtrofaturas = new filtroFaturas();
+        let Newarr = []
+        
+        const user1 = filtrofaturas.passaobjCliente('Tiago', '2021-10-07', 'PR');
+        const fatura1 = filtrofaturas.passaobjFatura('id', 3000, '2021-11-11', user1);
+        Newarr = filtrofaturas.colocaFaturainArray(Newarr,fatura1)
+        Newarr = filtrofaturas.filtroFatura(Newarr);
+
+        const sizeArr = Newarr.length;
+        expect(sizeArr).toBe(0); 
+    });
 });
