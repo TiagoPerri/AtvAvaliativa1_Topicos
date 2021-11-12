@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1636735591739" clover="3.2.0">
-  <project timestamp="1636735591739" name="All files">
+<coverage generated="1636735856335" clover="3.2.0">
+  <project timestamp="1636735856335" name="All files">
     <metrics statements="30" coveredstatements="30" conditionals="10" coveredconditionals="10" methods="9" coveredmethods="9" elements="49" coveredelements="49" complexity="0" loc="30" ncloc="30" packages="1" files="1" classes="1"/>
     <file name="filtroFaturas.js" path="D:\Users\tiago\Desktop\UTFPR\Tópicos em Computação\AtvAvaliativa1_Topicos\src\filtroFaturas.js">
       <metrics statements="30" coveredstatements="30" conditionals="10" coveredconditionals="10" methods="9" coveredmethods="9"/>
-      <line num="4" count="6" type="stmt"/>
-      <line num="12" count="6" type="stmt"/>
-      <line num="25" count="6" type="stmt"/>
-      <line num="30" count="5" type="stmt"/>
-      <line num="31" count="5" type="stmt"/>
-      <line num="33" count="5" type="stmt"/>
-      <line num="34" count="5" type="stmt"/>
-      <line num="36" count="5" type="stmt"/>
-      <line num="39" count="5" type="stmt"/>
-      <line num="40" count="5" type="cond" truecount="5" falsecount="0"/>
+      <line num="4" count="7" type="stmt"/>
+      <line num="12" count="7" type="stmt"/>
+      <line num="25" count="7" type="stmt"/>
+      <line num="30" count="6" type="stmt"/>
+      <line num="31" count="6" type="stmt"/>
+      <line num="33" count="6" type="stmt"/>
+      <line num="34" count="6" type="stmt"/>
+      <line num="36" count="6" type="stmt"/>
+      <line num="39" count="6" type="stmt"/>
+      <line num="40" count="6" type="cond" truecount="5" falsecount="0"/>
       <line num="41" count="2" type="stmt"/>
-      <line num="43" count="3" type="stmt"/>
-      <line num="48" count="3" type="stmt"/>
-      <line num="49" count="3" type="stmt"/>
-      <line num="51" count="3" type="stmt"/>
-      <line num="52" count="3" type="stmt"/>
-      <line num="54" count="3" type="stmt"/>
-      <line num="57" count="3" type="stmt"/>
-      <line num="58" count="3" type="cond" truecount="5" falsecount="0"/>
+      <line num="43" count="4" type="stmt"/>
+      <line num="48" count="4" type="stmt"/>
+      <line num="49" count="4" type="stmt"/>
+      <line num="51" count="4" type="stmt"/>
+      <line num="52" count="4" type="stmt"/>
+      <line num="54" count="4" type="stmt"/>
+      <line num="57" count="4" type="stmt"/>
+      <line num="58" count="4" type="cond" truecount="5" falsecount="0"/>
       <line num="59" count="1" type="stmt"/>
-      <line num="61" count="2" type="stmt"/>
-      <line num="65" count="3" type="stmt"/>
-      <line num="67" count="3" type="stmt"/>
-      <line num="68" count="3" type="stmt"/>
-      <line num="69" count="3" type="stmt"/>
-      <line num="71" count="3" type="stmt"/>
-      <line num="75" count="6" type="stmt"/>
-      <line num="77" count="6" type="stmt"/>
-      <line num="79" count="6" type="stmt"/>
+      <line num="61" count="3" type="stmt"/>
+      <line num="65" count="4" type="stmt"/>
+      <line num="67" count="4" type="stmt"/>
+      <line num="68" count="4" type="stmt"/>
+      <line num="69" count="4" type="stmt"/>
+      <line num="71" count="4" type="stmt"/>
+      <line num="75" count="7" type="stmt"/>
+      <line num="77" count="7" type="stmt"/>
+      <line num="79" count="7" type="stmt"/>
       <line num="83" count="1" type="stmt"/>
     </file>
   </project>
