@@ -44,10 +44,13 @@ describe('filtroFaturas', () => {
         
         const user1 = filtrofaturas.passaobjCliente('Tiago', '2021-10-07', 'PR');
         const fatura1 = filtrofaturas.passaobjFatura('id', 3000, '2021-11-11', user1);
+        const user2 = filtrofaturas.passaobjCliente('Andre', '2021-10-07', 'AM');
+        const fatura2 = filtrofaturas.passaobjFatura('id', 3300, '2021-11-11', user2);
         Newarr = filtrofaturas.colocaFaturainArray(Newarr,fatura1)
+        Newarr = filtrofaturas.colocaFaturainArray(Newarr,fatura2)
         Newarr = filtrofaturas.filtroFatura(Newarr);
 
         const sizeArr = Newarr.length;
-        expect(sizeArr).toBe(0); 
+        expect(sizeArr).toBe(1); 
     });
 });
