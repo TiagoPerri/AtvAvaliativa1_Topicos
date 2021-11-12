@@ -27,7 +27,10 @@ describe('filtroFaturas', () => {
         
         const user1 = filtrofaturas.passaobjCliente('Tiago', '2021-10-07', 'PR');
         const fatura1 = filtrofaturas.passaobjFatura('id', 2500, '2021-11-01', user1);
+        const user2 = filtrofaturas.passaobjCliente('Andre', '2021-10-07', 'SC');
+        const fatura2 = filtrofaturas.passaobjFatura('id', 2400, '2021-11-01', user2);
         Newarr = filtrofaturas.colocaFaturainArray(Newarr, fatura1)
+        Newarr = filtrofaturas.colocaFaturainArray(Newarr, fatura2)
         Newarr = filtrofaturas.filtroFatura(Newarr);
 
         const sizeArr = Newarr.length;
