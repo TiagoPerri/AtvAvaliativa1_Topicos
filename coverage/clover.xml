@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1636733383453" clover="3.2.0">
-  <project timestamp="1636733383454" name="All files">
+<coverage generated="1636733819274" clover="3.2.0">
+  <project timestamp="1636733819274" name="All files">
     <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5" elements="15" coveredelements="15" complexity="0" loc="10" ncloc="10" packages="1" files="1" classes="1"/>
     <file name="filtroFaturas.js" path="D:\Users\tiago\Desktop\UTFPR\Tópicos em Computação\AtvAvaliativa1_Topicos\src\filtroFaturas.js">
       <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
-      <line num="4" count="1" type="stmt"/>
-      <line num="12" count="1" type="stmt"/>
-      <line num="25" count="1" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="12" count="2" type="stmt"/>
+      <line num="25" count="2" type="stmt"/>
       <line num="29" count="1" type="stmt"/>
       <line num="31" count="1" type="stmt"/>
       <line num="33" count="1" type="stmt"/>
-      <line num="37" count="1" type="stmt"/>
-      <line num="39" count="1" type="stmt"/>
-      <line num="41" count="1" type="stmt"/>
+      <line num="37" count="2" type="stmt"/>
+      <line num="39" count="2" type="stmt"/>
+      <line num="41" count="2" type="stmt"/>
       <line num="45" count="1" type="stmt"/>
     </file>
   </project>
